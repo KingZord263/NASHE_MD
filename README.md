@@ -6,7 +6,7 @@ A multi purpose bot that will change features of your WhatsApp and change your l
 <div class = "repo" align = "center">
  
 <a href = "#">
-<img src = "https://files.catbox.moe/kqcslk.jpg"  width="300" height="200">
+<img src = "https://files.catbox.moe/kqcslk.jpg"  width="300" height="350">
 </img>
  <p align="center">
   <a href="#"><img src="http://readme-typing-svg.herokuapp.com?color=ff00ab&center=true&vCenter=true&multiline=false&lines=NASHE_MD+MD+WHATSAPP+BOT+MD" alt="">
