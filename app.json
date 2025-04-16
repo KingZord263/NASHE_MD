@@ -1,82 +1,96 @@
 {
-    "name": "NASHE_MD",
-    "version":"1.0.0",
-    "description": "NASHE_MD Multi Device whatsappbot",
-    "logo": "https://files.catbox.moe/213def.jpg",
-    "keywords": ["whatsapp"],
-    "repository": "https://github.com/KingZord263/NASHE_MD",
-    "website": "https://github.com/KingZord263/NASHE_MD",
-    "success_url": "https://github.com/KingZord263/NASHE_MD",
-    "stack": "container",
-    "env": {
-        "BOT_INFO": {
-            "description": "botname;ownername;ownernumber;image url",
-            "required": true,
-            "value":"king;nashe_md;https://i.imgur.com/VIpl3q5.mp4"
-        },
-        "AUDIO_DATA": {
-            "description": "audio package name",
-            "required": true,
-            "value":"ʟᴏᴋɪ-xᴇʀ;ᴊᴀʀᴠɪꜱ;https://files.catbox.moe/213def.jpg"
-        },
-        "WARN_COUNT": {
-            "description": "warn count",
-            "required": true,
-            "value":"3"
-        },
-        "SERVER": {
-            "description": "delpoying server",
-            "required": true,
-            "value":"heroku"
-        },
-        "AUTO_STATUS_VIEWS": {
-            "description": "auto status views",
-            "required": true,
-            "value":"false"
-        },
-        "MEDIA_DATA": {
-            "description": "media data that uses in list",
-            "required": true,
-            "value":"ʟɪꜱᴛ ᴍᴇɴᴜ;ᴊᴀʀᴠɪꜱ-ᴍᴅ;https://i.imgur.com/ltPPMTh.jpeg"
-        },
-        "HANDLER": {
-            "description": "handler for bot. all so can be null or false",
-            "required": true,
-            "value":"."
-        },
-        "SESSION_ID": {
-            "description": "session id",
-            "required": true
-        },
-        "WORK_TYPE": {
-            "description": "worker type public or private",
-            "required": true,
-            "value":"private"
-        },
-        "HEROKU_APP_NAME": {
-            "description": "heroku app name, same as above entered",
-            "required": true
-        },
- 
-        },
-        "STICKER_PACKNAME": {
-            "description": "sticker package name",
-            "required": true,
-            "value":"ʟᴏᴋɪ;ᴊᴀʀᴠɪꜱ"
-        },
-        "SUDO": {
-            "description": "owner number of the bot",
-            "required": false,
-            "value":"263718036108"
-        }
+  "name": "NASHE_MD",
+  "description": "ᴊᴀᴠᴀsᴄʀɪᴘᴛ ᴡʜᴀᴛsᴀᴘᴘ ʙᴏᴛ ᴄʀᴇᴀᴛᴇᴅ ʙʏ THRI_IZ_KIDD ",
+  "logo": "https://files.catbox.moe/213def.jpg",
+  "keywords": ["bot"],
+  "success_url": "/",
+  "env": {
+    "SESSION_ID": {
+      "description": "Put the session-id here.",
+      "required": true,
+      "value": ""
     },
-      "addons": [{
-      "plan": "heroku-postgresql"
-    }],
-    "buildpacks": [{
-      "url": "heroku-community/apt"
-      },
-      {
-      "url": "https://github.com/clhuang/heroku-buildpack-webp-binaries.git"
-      }]
+    "ALIVE_IMG": {
+      "description": "paste your image url if you don't have you can use this public url.",
+      "required": true,
+      "value": "your image url"
+    },
+    "ALIVE_MSG": {
+      "description": "paste your alive message hear.",
+      "required": true,
+      "value": "HI DEAR NASHE IS ONLINE.!!♻️"
+    },
+    "PREFIX": {
+      "description": "paste your bot prefix note! Don't apply null prefix.",
+      "required": true,
+      "value": "."
+    },
+    "MODE": {
+      "description": "select your bot work type public-private-inbox-group.",
+      "required": true,
+      "value": "public"
+    },
+    "AUTO_VOICE": {
+      "description": "Make it true if you want bot auto voice.",
+      "required": true,
+      "value": "true"
+    },
+    "AUTO_REPLY": {
+      "description": "Make it true if you want bot auto reply.",
+      "required": true,
+      "value": "true"
+    },
+    "AUTO_STICKER": {
+      "description": "Make it true if you want bot auto sticker.",
+      "required": true,
+      "value": "false"
+    },
+    "AUTO_READ_STATUS": {
+      "description": "Make it true if you want bot auto auto_read_status.",
+      "required": true,
+      "value": "true"
+    },
+    "ANTI_LINK": {
+      "description": "Make it true if you want bot auto remove group link.",
+      "required": true,
+      "value": "true"
+    },
+    "ANTI_BAD": {
+      "description": "Make it true if you want bot auto delete bad words from group example xxx porn etc.",
+      "required": true,
+      "value": "false"
+    },
+    "FAKE_RECORDING": {
+      "description": "Make it true if you want bot fake record.",
+      "required": true,
+      "value": "true"
+    },
+    "AUTO_REACT": {
+      "description": "Make it true if you want bot AutoReact.",
+      "required": false,
+      "value": "false"
+    },
+    "OWNER_REACT": {
+      "description": "Make it true if you want bot OwnerReact.",
+      "required": false,
+      "value": "false"
+    },
+    "BOT_NAME": {
+      "description": "write hear your name.",
+      "required": true,
+      "value": "✦『NASHE-MD』✦"
+    },
+    "HEART_REACT": {
+      "description": "Make it true if you want bot only heart ♥️ emjois reaction .",
+      "required": true,
+      "value": "false"
+    }
+  },
+  "buildpacks": [
+    {
+      "url": "https://github.com/heroku/heroku-buildpack-nodejs.git"
+    }
+  ],
+  "stack": "heroku-24"
 }
+```
