@@ -25,7 +25,7 @@ A multi purpose bot that will change features of your WhatsApp and change your l
 
 > To deploy, generate your session ID from the link below:
 <p align="left">
-  <a href="https://piandulhs-cb61bfd3de2f.herokuapp.com/pair/?">
+  <a href="https://giftedmdm-6bc2ea5e2fda.herokuapp.com?">
     <img src="https://img.shields.io/badge/%F0%9F%9A%80%20GET%20PAIR%20CODE%20WEB-ffcc00?style=for-the-badge"/>
   </a>
 </p>
