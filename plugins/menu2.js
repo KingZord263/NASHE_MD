@@ -94,7 +94,7 @@ ${menu.search}
 *╰──────────●●►*
 
 
-> *Powered by botname*
+> *Powered by NASHE_MD*
 
 `;
 
