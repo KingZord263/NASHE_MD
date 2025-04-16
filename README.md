@@ -2,11 +2,11 @@
 A multi purpose bot that will change features of your WhatsApp and change your life..Give it a try...made by THRI_IZ_KIDD N ADM¡N TEC
 
 <img src="https://i.imgur.com/dBaSKWF.gif" height="90" width="100%">
- 🌝POWERED UP YOUR WHATSAPP WITH ME💚
+ 🌝POWER UP YOUR WHATSAPP WITH ME💚
 <div class = "repo" align = "center">
  
 <a href = "#">
-<img src = "https://files.catbox.moe/213def.jpg"  width="325" height="350">
+<img src = "https://files.catbox.moe/213def.jpg"  width="425" height="350">
 </img>
  <p align="center">
   <a href="#"><img src="http://readme-typing-svg.herokuapp.com?color=ff00ab&center=true&vCenter=true&multiline=false&lines=NASHE_MD+MD+WHATSAPP+BOT+MD" alt="">
