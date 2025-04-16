@@ -1,4 +1,4 @@
-# NASHE MD
+# NASHE MD X ADMIN-TECH
 A multi purpose bot that will change features of your WhatsApp and change your life..Give it a try...made by THRI_IZ_KIDD N ADM¡N TEC
 
 <img src="https://i.imgur.com/dBaSKWF.gif" height="90" width="100%">
@@ -6,7 +6,7 @@ A multi purpose bot that will change features of your WhatsApp and change your l
 <div class = "repo" align = "center">
  
 <a href = "#">
-<img src = "https://files.catbox.moe/kqcslk.jpg"  width="300" height="350">
+<img src = "https://files.catbox.moe/213def.jpg"  width="300" height="350">
 </img>
  <p align="center">
   <a href="#"><img src="http://readme-typing-svg.herokuapp.com?color=ff00ab&center=true&vCenter=true&multiline=false&lines=NASHE_MD+MD+WHATSAPP+BOT+MD" alt="">
