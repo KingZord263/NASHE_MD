@@ -19,16 +19,16 @@ try{
 
 let dec = `*👋 Hello ${pushname}*
 
-*👨‍💻Your Botname 👨‍💻*
+*👨‍💻NASHE_MD 👨‍💻*
 
 > *𝗢𝗪𝗡𝗘𝗥 𝗜𝗡𝗙𝗢* 
 
-*⚡Owner name -: your name*
-*⚡Number* -: your number
+*⚡Owner name -: THRI_IZ_KIDD*
+*⚡Number* -: 263718036108
 
- ⚡️◦ https://whatsapp.com/channel/0029Vac8SosLY6d7CAFndv3
+ ⚡️◦ https://whatsapp.com/channel/0029Vasurr4EquiXeN7EpK3N
 
-> *Powered by your name*
+> *Powered THRI_IZ_KIDD*
 `;
 await conn.sendMessage(from,{image:{url:config.MENU_IMG},caption:dec},{quoted:mek});
 
@@ -51,14 +51,14 @@ try{
 
 let dec = `*📍ℝ𝔼ℙ𝕆-𝕃𝕀ℕ𝕂 ❤️‍🔥👇*
 
-👨‍💻◦https://github.com/your github username/Botname
+👨‍💻◦https://github.com/KingZord263/NASHE_MD 
 
 
 *📍ℙ𝕃𝔼𝔸𝕊𝔼 𝔽𝕆𝕃𝕃𝕆𝕎 𝕄𝕐 𝕎ℍ𝔸𝕋𝕊𝔸ℙℙ ℂℍ𝔸ℕℕ𝔼𝕃 ❤️‍🔥👇*
 
-👨‍💻◦ https://whatsapp.com/channel/0029Vac8SosLY6d7CAFndv3Z
+👨‍💻◦ https://whatsapp.com/channel/0029Vasurr4EquiXeN7EpK3N
 
-> *Powered by yourname*
+> *Powered by THRI_IZ_KIDD*
 `;
 await conn.sendMessage(from,{image:{url: config.MENU_IMG},caption:dec},{quoted:mek});
 
@@ -80,11 +80,11 @@ let status = `┌─────────────────────
 ├ ⏰ *Runtime:-* ${runtime(process.uptime())}
 ├ 📟 *Ram usage:-* ${(process.memoryUsage().heapUsed / 1024 / 1024).toFixed(2)}MB / ${Math.round(require('os').totalmem / 1024 / 1024)}MB
 ├ ⚙️ *Platform:-* ${os.hostname()}
-├ 👨‍💻 *Owners:-* your name
+├ 👨‍💻 *Owners:-* THRI_IZ_KIDD 
 ├ 🧬 *Version:-* 1.0.0
 └───────────────────────
 
-> *𝘗𝘖𝘞𝘌𝘙𝘌𝘋 𝘣𝘺 Your Botname*
+> *𝘗𝘖𝘞𝘌𝘙𝘌𝘋 𝘣𝘺 NASHE_MD*
 `;
 return reply(`${status}`)
   
