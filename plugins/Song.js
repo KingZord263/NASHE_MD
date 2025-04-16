@@ -46,7 +46,7 @@ async(conn, mek, m, {from, quoted, body, isCmd, command, args, q, isGroup, sende
             document: { url: audio.download },
             mimetype: 'audio/mp3',
             fileName: `${audio.title}.mp3`,
-            caption: `your name`
+            caption: `Thri_iz_Kidd `
         });
 
         await conn.sendMessage(from, {
