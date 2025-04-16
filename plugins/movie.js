@@ -27,7 +27,7 @@ cmd({
         }
 
         const movieInfo = `
-*🎬 Botname MOVIE SERCH🎬*
+*🎬 NASHE_MD MOVIE SEARCH🎬*
 
 *ᴛɪᴛʟᴇ:* ${data.Title}
 *ʏᴇᴀʀ:* ${data.Year}
@@ -43,7 +43,7 @@ cmd({
 *ᴀᴡᴀʀᴅꜱ:* ${data.Awards}
 *ɪᴍᴅʙ ʀᴀᴛɪɴɢ:* ${data.imdbRating}
 
-> *powered by ur botname👑*
+> *powered by THRI_IZ_KIDD 👑*
 `;
 
         const imageUrl = data.Poster && data.Poster !== 'N/A' ? data.Poster : config.ALIVE_IMG;
