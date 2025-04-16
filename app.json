@@ -1,3 +1,4 @@
+
 {
   "name": "NASHE_MD",
   "description": "ᴊᴀᴠᴀsᴄʀɪᴘᴛ ᴡʜᴀᴛsᴀᴘᴘ ʙᴏᴛ ᴄʀᴇᴀᴛᴇᴅ ʙʏ THRI_IZ_KIDD ",
@@ -78,7 +79,7 @@
     "BOT_NAME": {
       "description": "write hear your name.",
       "required": true,
-      "value": "✦『NASHE-MD』✦"
+      "value": "✦『Botname-MD』✦"
     },
     "HEART_REACT": {
       "description": "Make it true if you want bot only heart ♥️ emjois reaction .",
@@ -93,4 +94,3 @@
   ],
   "stack": "heroku-24"
 }
-```
