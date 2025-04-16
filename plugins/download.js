@@ -52,7 +52,7 @@ cmd({
 
     const { desc, thumb, video_sd, video_hd } = data.result;
 
-    const caption = `╭════ 〔 *Your Botname* 〕════❐\n`
+    const caption = `╭════ 〔 *NASHE_MD* 〕════❐\n`
       + `┃▸ *Description:* ${desc || "No description"}\n`
       + `╰═════════════════❐\n\n`
       + `📹 *Download Options:*\n`
@@ -174,11 +174,11 @@ cmd({
       react: { text: "⬆️", key: m.key }
     });
 
-    const caption = `╭════ 〔 *Your Botname* 〕════❐\n`
+    const caption = `╭════ 〔 *NASHE_MD* 〕════❐\n`
       + `┃▢ *ғɪʟᴇ ɴᴀᴍᴇ:* ${file_name}\n`
       + `┃▢ *ғɪʟᴇ ᴛʏᴘᴇ:* ${mime_type}\n`
       + `╰═════════════════❐\n\n`
-      + `> *Powered by Your Botname🎐*`;
+      + `> *Powered by NASHE_MD🎐*`;
 
     await conn.sendMessage(from, {
       document: { url: dl_link },
@@ -224,14 +224,14 @@ cmd({
     const app = data.datalist.list[0];
     const appSize = (app.size / 1048576).toFixed(2); // Convert bytes to MB
 
-    const caption = `╭═══ 〔 *Your Botname 𝐀𝐏𝐊* 〕═══❐
+    const caption = `╭═══ 〔 *NASHE_MD 𝐀𝐏𝐊* 〕═══❐
 ┃ 🏷️ *ɴᴀᴍᴇ:* ${app.name}
 ┃ 📦 *sɪᴢᴇ:* ${appSize} MB
 ┃ 📮 *ᴘᴀᴄᴋᴀɢᴇ:* ${app.package}
 ┃ 📅 *ᴜᴘᴅᴀᴛᴇᴅ ᴏɴ:* ${app.updated}
 ┃ 👨🏻‍💻 *ᴅᴇᴠᴇʟᴏᴘᴇʀ:* ${app.developer.name}
 ╰══════════════════❐
-> *Powered by your botname🎐*`;
+> *Powered by your NASHE_MD 🎐*`;
 
     await conn.sendMessage(from, { react: { text: "⬆️", key: m.key } });
 
@@ -282,7 +282,7 @@ cmd({
         document: { url: downloadUrl },
         mimetype: response.data.result.mimetype,
         fileName: response.data.result.fileName,
-        caption: "> *Powered by your Botname 🎐*"
+        caption: "> *Powered by your Nashe_Md 🎐*"
       }, { quoted: m });
 
       await conn.sendMessage(from, { react: { text: "✅", key: m.key } });
