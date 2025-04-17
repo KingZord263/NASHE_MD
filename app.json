@@ -1,55 +1,37 @@
 {
-  "name": "NASHE_MD",
-  "description": "Javascript WhatsApp bot made by ✦ Thri_iz_Kidd ✦",
+  "name": "NASHE-MD",
+  "description": "Whiskey Sockets Baileys Whatsapp bot By ETHAN",
   "logo": "https://files.catbox.moe/213def.jpg",
-  "keywords": ["NASHE_MD"],
+  "keywords": ["NASHE-MD"],
   "success_url": "/",
-
-    "stack": "container",
+  "stack": "container",
   "env": {
-      "SESSION_ID": {
-        "description": "Put your SESSION_ID here. Make sure it starts with NASHE~",
-        "value":"",
-        "required": true
-        
+    "SESSION_ID": {
+      "description": "Put your session-id here.",
+      "required": true,
+      "value": ""
     },
-      "BOT_NAME": {
-        "description": "write here your bot name.",
-        "required": true,
-        "value": "✦『NASHE-MD V1』✦" 
-        
+    "PREFIX": {
+      "description": "paste your bot prefix note! Don't apply null prefix.",
+      "required": false,
+      "value": "."
     },
-      "MODE": {
-        "description": "Bot mode can be public, private, inbox or groups in small letters (e.g, public)",
-        "value":"private",
-        "required": true  
-        
-   },
-     "DESCRIPTION": {
-      "description": "add caption for menu and other",
-      "value": "*> © ᴘᴏᴡᴇʀᴇᴅ ʙʏ THRI_IZ_KIDD ❄️*",
-      "required": true
-      
-   }, 
-
+  
     "OWNER_NUMBER": {
       "description": "put the owner number for bot.",
+      "required": false,
       "value": "263718036108"
-      "required": true
-      
-   },
-    "OWNER_NAME": {
-      "description": "Enter your name here",
-      "value": "",
-      "required": true
+    },
+    "BOT_NAME": {
+      "description": "Type here the bot name.",
+      "required": false,
+      "value": "NASHE-MD"
     }
-
-},
-
-     "buildpacks": [
-        {
-            "url": "https://github.com/heroku/heroku-buildpack-nodejs.git"
-        }
-     ],
+  },
+  "buildpacks": [
+    {
+      "url": "https://github.com/heroku/heroku-buildpack-nodejs.git"
+    }
+  ],
   "stack": "heroku-24"
 }
